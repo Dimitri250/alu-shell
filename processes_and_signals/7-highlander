@@ -1,1 +1,8 @@
-root@d4398c9f43ea.3098
+#!/usr/bin/env bash
+#script that displays To infinity and beyond indefinitely, With a sleep 2 in between each iteration
+trap 'echo "I am invincible!!!"' 15
+while true;
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
